@@ -14,11 +14,11 @@ import datetime
 # In[158]:
 
 
-all_files = (r"C:\Users\alexw\OneDrive\Desktop\approved_01012018_pure_premium_rates.csv", 
-             r"C:\Users\alexw\OneDrive\Desktop\approved_7_1_2018_pure_premium_rates.csv",    
-            r"C:\Users\alexw\OneDrive\Desktop\jan_1_2019_approved_pure_premium_rates.csv",
-            r"C:\Users\alexw\OneDrive\Desktop\approved_01012020_pure_premium_rates.csv",
-            r"C:\Users\alexw\OneDrive\Desktop\approved_09012021_pure_premium_rates.csv")
+all_files = (r"C:\....\...\...\...\approved_01012018_pure_premium_rates.csv",  ## Full file location hidden for priacy concerns
+             r"C:\...\...\...\...\approved_7_1_2018_pure_premium_rates.csv",    ## Full file location hidden for priacy concerns
+            r"C:\\....\...\...\...\\jan_1_2019_approved_pure_premium_rates.csv", ## Full file location hidden for priacy concerns
+            r"C:\\....\...\...\...\\approved_01012020_pure_premium_rates.csv",    ## Full file location hidden for priacy concerns
+            r"C:\\....\...\...\...\aapproved_09012021_pure_premium_rates.csv")    ## Full file location hidden for priacy concerns
 rate_dict = {}
 for f in all_files:
     df = pd.read_csv(f, header = None)
